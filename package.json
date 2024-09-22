@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:addToCart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js",
     "cypress:open": "cypress open"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
     "cypress": "^13.6.4",
     "cypress-downloadfile": "^1.2.4",
     "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.2",
     "mocha": "^10.7.3",
     "mochawesome": "^7.1.3"
   }
