@@ -12,6 +12,7 @@ weblocators={
     continue : '.btn.btn-primary'
 }
 
+
 openURL(){
 
     cy.visit(Cypress.env('URL'))
