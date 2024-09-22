@@ -1,0 +1,8 @@
+{
+
+    "firstName"  :"Test",
+    "lastName"  : "QA" , 
+    "email" : "test.ab@qatest.com",
+    "telephone" : "1234567",
+    "password" : "Cypress123"
+}
