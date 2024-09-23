@@ -1,6 +1,6 @@
-import { registerPage } from "./tests/registerPage"
+import { registerPage } from "../../pages/registerPage"
 const registerObj = new registerPage()
-import registerData from '../fixtures/registerData.json'
+import registerData from '../../fixtures/registerData.json'
 describe('test automation',()=>{
     
 
